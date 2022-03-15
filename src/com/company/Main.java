@@ -36,8 +36,8 @@ public class Main {
                 .sum();
        */
 
-        Circle c1 = new Circle(3);
-        Circle c2 = new Circle(5);
+        Circle c1 = new Circle(2.0);
+        Circle c2 = new Circle(5.0);
 
         System.out.println("Fläche c1 : " + c1.getArea());
         System.out.println("Fläche c2 : " + c2.getArea());
