@@ -60,11 +60,27 @@ public class Main {
 
         List<GeometricObject> objects = List.of(quadrat1,quadrat2, rechteck1,rechteck2,c1,c2,tri1,tri2);
 
+        /*
+        double sum = 0;
+        for(GeometricObject element : objects) {
+            sum += element.getArea();
+        } */
+
         double sum = 0;
         for(GeometricObject element : objects) {
             sum += element.getArea();
         }
+
         System.out.println("Summe  Flächeninhalt: " + sum);
+
+        List<GeomObject2D> interfaceObjects = List.of(quadrat1,quadrat2, rechteck1,rechteck2,c1,c2,tri1,tri2);
+
+        double sumPerimeter = 0;
+        for(GeomObject2D element : interfaceObjects) {
+            sumPerimeter += element.getArea();
+        }
+
+        System.out.println("Summe umfang: " + sumPerimeter);
 
     }
 }

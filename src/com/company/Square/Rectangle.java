@@ -1,6 +1,6 @@
 package com.company.Square;
 
-public class Rectangle extends GeometricObject{
+public class Rectangle extends GeometricObject implements GeomObject2D{
     private double a;
     private double b;
 

@@ -1,6 +1,6 @@
 package com.company.Square;
 
-public class Circle extends GeometricObject{
+public class Circle extends GeometricObject implements GeomObject2D{
 
     private double a;
 

@@ -1,6 +1,6 @@
 package com.company.Square;
 
-public class Square extends Rectangle {
+public class Square extends Rectangle implements GeomObject2D{
 
     public Square(double a) {
         super(a, a);
