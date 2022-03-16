@@ -25,4 +25,5 @@ public class Circle extends GeometricObject{
     public Circle(double a) {
         this.a = a;
     }
+
 }

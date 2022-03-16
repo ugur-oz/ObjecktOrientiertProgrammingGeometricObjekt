@@ -1,9 +1,6 @@
 package com.company;
 
-import com.company.Square.Circle;
-import com.company.Square.GeometricObject;
-import com.company.Square.Rectangle;
-import com.company.Square.Square;
+import com.company.Square.*;
 
 import java.util.List;
 import java.util.function.BiFunction;
@@ -45,6 +42,14 @@ public class Main {
         System.out.println("Umfang c1 : " + c1.getPerimeter());
         System.out.println("Umfang c2 : " + c2.getPerimeter());
 
+        RightAngledTriangle tri1 = new RightAngledTriangle(3,4);
+        RightAngledTriangle tri2 = new RightAngledTriangle(6,8);
+
+        System.out.println("Fläche tri1 : " + tri1.getArea());
+        System.out.println("Umfang tri1 : " + tri1.getPerimeter());
+
+        System.out.println("Fläche tri2 : " + tri2.getArea());
+        System.out.println("Umfang tri2 : " + tri2.getPerimeter());
 
         List<GeometricObject> objects = List.of(quadrat1,quadrat2, rechteck1,rechteck2,c1,c2);
 
