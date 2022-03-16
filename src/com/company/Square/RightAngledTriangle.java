@@ -18,4 +18,9 @@ public class RightAngledTriangle extends GeometricObject {
     public double getPerimeter() {
         return Math.sqrt(a * a + b * b) + a + b;
     }
+
+    @Override
+    public String getName() {
+        return "RightAngledTriangle";
+    }
 }

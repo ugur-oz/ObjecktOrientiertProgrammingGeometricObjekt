@@ -22,6 +22,11 @@ public class Circle extends GeometricObject{
         return 2 * a * Math.PI;
     }
 
+    @Override
+    public String getName() {
+        return "Circle";
+    }
+
     public Circle(double a) {
         this.a = a;
     }

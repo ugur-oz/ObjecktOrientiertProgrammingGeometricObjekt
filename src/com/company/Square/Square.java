@@ -6,6 +6,11 @@ public class Square extends Rectangle {
         super(a, a);
     }
 
+    @Override
+    public String getName(){
+        return "Quadrat";
+    }
+
     public double getA(){
         return super.getA();
     }

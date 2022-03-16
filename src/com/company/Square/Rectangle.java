@@ -28,4 +28,9 @@ public class Rectangle extends GeometricObject{
         return 2*a + 2*b ;
     }
 
+    @Override
+    public String getName() {
+        return "Rechtangle";
+    }
+
 }
