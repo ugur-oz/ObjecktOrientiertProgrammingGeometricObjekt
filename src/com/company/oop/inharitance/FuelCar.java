@@ -1,9 +1,7 @@
 package com.company.oop.inharitance;
 
-public class FuelCar extends Car{
+public interface FuelCar {
 
-    public void fuel(){
-        System.out.println("fuelling...");
-    }
+    void fuel();
 
 }
