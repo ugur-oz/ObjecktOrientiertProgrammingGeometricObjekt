@@ -32,5 +32,5 @@ public class Tree {
 
     //eger yazdigin bir kodda degisiklik yapilmasini istemiyorsan yani
     // mesela bir agacin adi ve boyu olsan dersen ilk setleri silersin sonra da final dersin
-    // immutabe  , degistirilemez data yapisi
+    // immutabe   , degistirilemez data yapisi
 }
