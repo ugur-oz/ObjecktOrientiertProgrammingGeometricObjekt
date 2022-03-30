@@ -1,6 +1,6 @@
 package com.company.abstraction;
 
-public class Square extends Shape {
+public class Square extends Shape implements WithDiagonal {
 
     private final double a;
 
@@ -16,5 +16,10 @@ public class Square extends Shape {
     @Override
     protected String getColor() {
         return "blau";
+    }
+
+    @Override
+    public double getDiagonalLength() {
+        return Math.sqrt(2 * a * a);
     }
 }

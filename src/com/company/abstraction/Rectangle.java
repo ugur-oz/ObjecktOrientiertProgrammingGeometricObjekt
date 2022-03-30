@@ -1,6 +1,6 @@
 package com.company.abstraction;
 
-public class Rectangle extends Shape {
+public class Rectangle extends Shape implements WithDiagonal {
 
     private final double a;
     private final double b;
@@ -18,5 +18,10 @@ public class Rectangle extends Shape {
     @Override
     protected String getColor() {
         return "black";
+    }
+
+    @Override
+    public double getDiagonalLength() {
+        return Math.sqrt(a * a + b * b);
     }
 }

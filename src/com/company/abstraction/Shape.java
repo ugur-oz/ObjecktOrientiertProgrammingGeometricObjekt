@@ -6,13 +6,17 @@ public abstract class Shape {
     // bu yaptigimiz kindklasseleri bu metodun implemente etmesine zorlar
     public abstract double getArea();
 
-    // bu metod private haric protected, default ve public olabilir,
+    // burda tanimlanan metotlar private haric protected, default ve public olabilir,
     // implementiondan önce bu metodu yine de burada kullanabiliriz ki asagida kullandik renkler icin
     // kast dan sparen ediyoruz ve ayni özelliklere klaslarin ortak özellikleri varsa
     protected abstract String getColor();
 
+    // protected abstract String type; bu olmaz abstrackt olarak olmaz yani
+
+
+
     @Override
-    public String toString(){
+    public String toString() {
 
         return this.getClass().getName() + "=> Farbe: " + this.getColor();
     }
