@@ -1,4 +1,4 @@
-package com.company.Square;
+package com.company.Example;
 
 public interface GeomObject2D {
 

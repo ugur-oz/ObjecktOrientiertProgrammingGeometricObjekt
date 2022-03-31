@@ -1,4 +1,4 @@
-package com.company.Square;
+package com.company.Example;
 
 public class Rectangle extends GeometricObject implements GeomObject2D{
     private double a;

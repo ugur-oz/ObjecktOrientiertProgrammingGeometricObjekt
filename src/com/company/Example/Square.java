@@ -1,4 +1,4 @@
-package com.company.Square;
+package com.company.Example;
 
 public class Square extends Rectangle implements GeomObject2D{
 

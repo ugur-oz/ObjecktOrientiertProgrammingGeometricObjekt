@@ -1,4 +1,4 @@
-package com.company.Square;
+package com.company.Example;
 
 public class Circle extends GeometricObject implements GeomObject2D{
 

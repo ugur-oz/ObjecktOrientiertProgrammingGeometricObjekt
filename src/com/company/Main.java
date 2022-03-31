@@ -1,9 +1,8 @@
 package com.company;
 
-import com.company.Square.*;
+import com.company.Example.*;
 
 import java.util.List;
-import java.util.function.BiFunction;
 
 public class Main {
 

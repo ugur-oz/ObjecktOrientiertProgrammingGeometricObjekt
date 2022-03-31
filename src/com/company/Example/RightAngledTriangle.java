@@ -1,4 +1,4 @@
-package com.company.Square;
+package com.company.Example;
 
 public class RightAngledTriangle extends GeometricObject implements GeomObject2D{
     private final double a;

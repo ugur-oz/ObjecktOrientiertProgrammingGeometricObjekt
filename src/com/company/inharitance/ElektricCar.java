@@ -1,4 +1,4 @@
-package com.company.oop.inharitance;
+package com.company.inharitance;
 
 public interface ElektricCar {
     void charge();
