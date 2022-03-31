@@ -23,7 +23,6 @@ public class Main {
             }
         }
 
-
         // WithDiagonal wd = () -> 5;
         // Function<Integer, Integer> mapFunction = x -> x * x;
         // lambda tamamen interfaces ile yürür, yani bir abstracta metodu var ve biz bunu kullaniyoruz
